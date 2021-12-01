@@ -20,3 +20,6 @@ for index in userInput.upper():
         consonantCount += 1
     elif index in ' ':
         wordCount += 1
+
+# result
+print (f"\nWord/s: {wordCount} \nVowel/s: {vowelCount} \nConsonant/s: {consonantCount} \n")
