@@ -6,3 +6,8 @@ print ("\nWelcome! This program will count the number of words, vowels, and cons
 
 # ask for input
 userInput = input("\nEnter you text here: ")
+
+# variables to be used
+wordCount = 1
+vowelCount = 0
+consonantCount = 0
