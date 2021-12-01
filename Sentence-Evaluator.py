@@ -5,7 +5,7 @@
 print ("\n\033[7mWelcome! This program will count the number of words, vowels, and consonants in your input.\033[0m")
 
 # ask for input
-userInput = input("\nEnter your \033[4mtext\033[0m here:\n")
+userInput = input("\nEnter your \033[4mtext\033[0m here:\n\033[1m")
 
 # variables to be used
 wordCount = 1
@@ -22,4 +22,4 @@ for index in userInput.upper():
         wordCount += 1
 
 # result
-print (f"\n\033[1m\033[96mWord/s:\033[0m \033[1m{wordCount}\033[0m \n\033[1m\033[95mVowel/s:\033[0m \033[1m{vowelCount}\033[0m \n\033[1m\033[91mConsonant/s:\033[0m \033[1m{consonantCount}\033[0m \n")
+print (f"\n\033[1m\033[96mWord/s       :\033[0m \033[1m{wordCount}\033[0m \n\033[1m\033[95mVowel/s      :\033[0m \033[1m{vowelCount}\033[0m \n\033[1m\033[91mConsonant/s  :\033[0m \033[1m{consonantCount}\033[0m \n")
