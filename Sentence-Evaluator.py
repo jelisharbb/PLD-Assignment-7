@@ -18,8 +18,7 @@ for index in userInput.upper():
         vowelCount += 1
     elif index in 'BCDFGHJKLMNPQRSTVWXYZ':
         consonantCount += 1
-    elif index in ' ':
-        wordCount += 1
+wordCount = len(userInput.split())
 
 # result
 print (f"\n\033[1m\033[96mWord/s       :\033[0m \033[1m{wordCount}\033[0m \n\033[1m\033[95mVowel/s      :\033[0m \033[1m{vowelCount}\033[0m \n\033[1m\033[91mConsonant/s  :\033[0m \033[1m{consonantCount}\033[0m \n")
