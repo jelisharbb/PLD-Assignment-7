@@ -32,3 +32,10 @@ while not valid1:
             userPass = input("\nYour password must be greater than 15 characters. Please try again. \nEnter your password here: ")
             if len(userPass) > 15:
                 break
+    while not valid2:
+        for index in userPass:
+            if index in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
+                upper += 1
+                break
+            else:
+                continue
