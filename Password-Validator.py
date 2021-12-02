@@ -47,3 +47,10 @@ while not valid1:
                 break
             else:
                 continue
+        # code that check if the password contains a special character
+        for index in userPass:
+            if index in "`~!@#$%^&*()-_=+[]|;:,<.>/?":
+                specialCha += 1
+                break
+            else:
+                continue
