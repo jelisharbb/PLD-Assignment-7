@@ -33,9 +33,17 @@ while not valid1:
             if len(userPass) > 15:
                 break
     while not valid2:
+        # code that checks if the password has an uppercase letter
         for index in userPass:
             if index in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
                 upper += 1
+                break
+            else:
+                continue
+        # code that checks if the password contains a number
+        for index in userPass:
+            if index in '0123456789':
+                number += 1
                 break
             else:
                 continue
