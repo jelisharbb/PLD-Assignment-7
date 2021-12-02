@@ -16,3 +16,19 @@ print ("\nWELCOME TO JELISHA'S PASSWORD VALIDATOR \n\nThe password is valid if a
 
 # ask for input
 userPass = input("\nEnter your password here:\n")
+
+character = 0
+upper = 0
+number = 0
+specialCha = 0
+
+valid1 = False
+valid2 = False
+
+# while loop code if the password is greater than 15 characters
+while not valid1:
+    while len(userPass) <= 15:
+        if len(userPass) <= 15:
+            userPass = input("\nYour password must be greater than 15 characters. Please try again. \nEnter your password here: ")
+            if len(userPass) > 15:
+                break
