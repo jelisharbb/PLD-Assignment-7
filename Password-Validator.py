@@ -54,3 +54,17 @@ while not valid1:
                 break
             else:
                 continue
+        if upper > 0 and number > 0 and specialCha > 0:
+            valid = True
+            break
+        else:
+            valPass = True
+    if valid:
+        break
+    elif valPass:
+        userPass = input("\nYour password is invalid. It must contain at least one uppercase letter, one number, one special character, and must be greater than 15 characters. Please try again. \nEnter your password here:")
+        character = 0
+        upper = 0
+        number = 0
+        specialCha = 0
+        valPass = False
